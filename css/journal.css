@@ -1,0 +1,28 @@
+.side-menu>li {
+    list-style: none !important;
+    padding: 10px 0;
+    font-size: small;
+}
+
+.side-menu2>li {
+    list-style: none !important;
+    padding: 10px 0;
+    font-size: small;
+}
+
+.side-menu>li a {
+    text-decoration: none !important;
+    color: gray;
+}
+
+.side-menu2>li a {
+    text-decoration: none !important;
+    color: #000;
+}
+
+.fa-search2 {
+    position: absolute;
+    right: 20px;
+    fill: gray !important;
+    top: 4px;
+}

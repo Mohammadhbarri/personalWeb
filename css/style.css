@@ -1,0 +1,125 @@
+*{
+    font-family: 'source-sans-pro';
+    box-sizing: border-box;
+}
+header .btn-1{
+    background-color: #fff;
+    color: #000;
+
+}
+header .btn-1:hover{
+    color: green;
+    transition: 0.3s;
+}
+.navbar-toggler-icon{
+    font-size:12px ;
+
+}
+.navbar-toggler-icon:active{
+    font-size:12px ;
+}
+.p1{
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+}
+.rel{
+    position: relative;
+}
+.sub-menu li{
+    display: inline-block;
+    padding: 0 20px;
+    
+}
+.sub-menu li a{
+    color: gray;
+    text-decoration: none;
+    font-size: small;
+}
+.sec-img .div1 img {
+    margin-left: -3.5px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight:bold !important;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0 !important;
+};
+.po-rel{
+    position: relative;
+}
+.fa-search3{
+    position: absolute;
+    right: 20px;
+    fill: gray !important;
+    top: 24px;
+}
+.navbar-brand img:hover{
+    transform: scale(1.1,1.1);
+    transition: 0.3s;
+}
+.button-el{
+    color: #000 !important;
+    text-decoration: none;
+}
+.button-el:hover{
+    color: #fadb6b !important;
+    fill: #fadb6b !important;
+    transition: 0.3s;
+}
+.div-auto div{
+    margin: auto;
+}
+footer a:hover{
+    color: #000 !important;
+    transition: 0.3s;
+}
+footer a{
+    text-decoration: none;
+    color: gray;
+}
+div ul li:hover a{
+    color: #fadb6b !important;
+    transition: 0.3s;
+}
+header ul li a {
+    color:lightgray !important;
+}
+#img-sh:hover{
+    transform: scale(1.04,1.04);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#img-sh{
+    transition:ease-in-out 0.4s;
+}
+.cardi a{
+    text-decoration: none;
+    color: #000 !important;
+}
+.cardi2 a{
+    color: #fff !important;
+    fill: #fff;
+    text-decoration: none;
+}
+.div-hover{
+    
+    width: 420px;
+    height: 508px;
+    z-index: 8 !important;
+    position: absolute;
+    visibility: hidden;
+    left: -4px;
+    opacity: 0.8;
+    transition: background 0.5s;
+}
+
+.rel:hover .div-hover{
+    background: #000;
+    visibility: visible;
+}
+.div1 div{
+    display: inline;
+}
+
+

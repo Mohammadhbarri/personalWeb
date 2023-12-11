@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/about.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/font/font.css">
+    <title>Document</title>
+</head>
+
+<body class="container">
+    <header>
+        <section class="container mt-3 px-3">
+            <div class="row">
+                <div class="col-4">
+                    <a class="navbar-brand" href="/index.html"><img src="/img/Capture.JPG" alt=""></a>
+                </div>
+                <div class="col-4 text-center mt-1">
+                    <a data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar2"
+                        aria-controls="offcanvasDarkNavbar" href="#">
+                        <button style="font-size: small;background-color: #fff;"
+                            class="border-0 text-dark button-el fw-bold">Search</button>
+                    </a>
+                    <div class="offcanvas rounded-3 border shadow m-auto w-75 h-50 offcanvas-top"
+                        id="offcanvasDarkNavbar2">
+                        <div class="offcanvas-header">
+                            <div class="col-lg-1 col-sm-2 mx-2 col-2 mt-3">
+                                <a class="navbar-brand" href="/index.html"><img src="/img/logo.JPG" width="100px"
+                                        alt=""></a>
+                            </div>
+                            <div class="rel">
+                                <a class="button-el" type="button" data-bs-dismiss="offcanvas" aria-label="Close">
+                                    <span class="fw-bold" style="font-size: small;">Close</span>
+                                    <span>
+                                        <i class="fa-solid fa-xmark ms-1">
+                                            <svg xmlns="http://www.w3.org/2000/svg" height="16" width="12"
+                                                viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                                                <path
+                                                    d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
+                                            </svg>
+                                        </i>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="offcanvas-body">
+                            <form class="d-flex rel" role="search">
+                                <input style="background-color: #f5f5f5;" class="form-control border-0 pe-5 p-4"
+                                    type="search" placeholder="Type something to search" aria-label="Search">
+                                <i class="fas fa-search fa-search3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16"
+                                        viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                                        <path
+                                            d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6 .1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z" />
+                                    </svg>
+                                </i>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <nav style="--bs-navbar-toggler-focus-width: 0;"
+                        class="navbar navbar-expand-xlg bg-body-light float-end m-0 p-0">
+                        <button class="navbar-toggler outline-none p-1 border-0 button-el" type="button"
+                            data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+                            aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                            <span class="fw-bold" style="font-size: small;">Menu</span>
+                            <i class="fa-solid fa-bars">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="11" width="14"
+                                    viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                                    <path
+                                        d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+                                </svg>
+                            </i>
+                        </button>
+                        <div class="container-fluid">
+                            <div class="offcanvas h-100 offcanvas-top" id="offcanvasDarkNavbar">
+                                <div class="offcanvas-header">
+                                    <div class="col-lg-1 col-sm-2 mx-2 col-2 mt-3 ms-5">
+                                        <a class="navbar-brand" href="/index.html"><img src="/img/logo.JPG"
+                                                width="100px" alt=""></a>
+                                    </div>
+                                    <div class="rel">
+                                        <a class="button-el" type="button" data-bs-dismiss="offcanvas"
+                                            aria-label="Close">
+                                            <span class="fw-bold" style="font-size: small;">Close</span>
+                                            <span>
+                                                <i class="fa-solid fa-xmark ms-1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="12"
+                                                        viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                                                        <path
+                                                            d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
+                                                    </svg>
+                                                </i>
+                                            </span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                                <ul class="navbar-nav  mb-2 mb-lg-0 header-menu1 text-end pe-5 me-5">
+                                    <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" href="/index.html">
+                                            <h1>Home</h1>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/about.html">
+                                            <h1 style="color: black;">About</h1>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/works.html">
+                                            <h1>Works</h1>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/Journal.html">
+                                            <h1>Journal</h1>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/Contacts.html">
+                                            <h1>Contacts</h1>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <section class="mt-0 ms-3">
+            <div class="col-md-7 col-12">
+                <h1 style="font-size: 9rem;" class="fw-bolder">About</h1>
+            </div>
+            <div>
+                <h1 class="fw-bold rel"><mark class="p-0 rounded-3">A Passionate</mark>
+                    <div class="div-mark-passionate d-lg-inline d-sm-none d-none"></div>
+                </h1>
+                <h1 class="fw-bold">photographer, designer in media</h1>
+            </div>
+            <div class="row mb-5 mt-4">
+                <div class="col-lg-5 col-12 text-lg-end text-center">
+                    <img style="width: 20rem;" src="/img/header-1.JPG" alt="">
+                </div>
+                <div class="col-lg-3 col-12 me-3 text-lg-start text-center mt-3">
+                    <h5 class="fw-bolder">Im Loca Reynolds</h5>
+                    <p style="font-size: small; text-align: justify;" class="text-secondary">Reynolds was born in Las
+                        Vegas, the seventh of
+                        nine children (eight boys
+                        and one girl) of Christene M. (née Callister) and Ronald Reynolds, a lawyer and author.[8] Both
+                        are natives of Nevada, and Reynolds is a 4th generation Nevadan.[9] As a Boy Scout he earned the
+                        rank of Eagle Scout in </p>
+                    <p style="font-size: small; text-align: justify;" class="text-secondary">Reynolds was born in Las
+                        Vegas, the seventh of
+                        nine children (eight boys
+                        and one girl) of Christene M. (née Callister) and Ronald Reynolds, a lawyer and author.[8] Both
+                        are natives of Nevada, and Reynolds is a</p>
+
+                </div>
+                <br>
+            </div>
+        </section>
+        <br>
+    </header>
+    <section id="sec-body my-5">
+        <h2 class="fw-bold mb-5">My <mark class="p-0 rounded-3">exprience</mark></h2>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-12 mt-5">
+                <h5>Designer at company</h5>
+                <p style="font-size: small;" class="text-secondary">2015 May - 2018 April</p>
+                <p style="font-size: small;" class="text-secondary">Reynolds was born in Las Vegas, the seventh of
+                    nine children (eight boys and one girl) of Christene M. (née Callister) and Ronald Reynolds, a
+                    lawyer and author.[8] Both
+                    are natives of Nevada, and Reynolds is a 4th generation Nevadan.[9] As a Boy Scout he earned the
+                    rank of Eagle Scout in </p>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mt-5">
+                <h5>Designer at company</h5>
+                <p style="font-size: small;" class="text-secondary">2015 May - 2018 April</p>
+                <p style="font-size: small;" class="text-secondary">Reynolds was born in Las Vegas, the seventh of
+                    nine children (eight boys and one girl) of Christene M. (née Callister) and Ronald Reynolds, a
+                    lawyer and author.[8] Both
+                    are natives of Nevada, and Reynolds is a 4th generation Nevadan.[9] As a Boy Scout he earned the
+                    rank of Eagle Scout in </p>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mt-5">
+                <h5>Designer at company</h5>
+                <p style="font-size: small;" class="text-secondary">2015 May - 2018 April</p>
+                <p style="font-size: small;" class="text-secondary">Reynolds was born in Las Vegas, the seventh of
+                    nine children (eight boys and one girl) of Christene M. (née Callister) and Ronald Reynolds, a
+                    lawyer and author.[8] Both
+                    are natives of Nevada, and Reynolds is a 4th generation Nevadan.[9] As a Boy Scout he earned the
+                    rank of Eagle Scout in </p>
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-lg-4 col-md-6 col-12 mt-5">
+                <h5>Designer at company</h5>
+                <p style="font-size: small;" class="text-secondary">2015 May - 2018 April</p>
+                <p style="font-size: small;" class="text-secondary">Reynolds was born in Las Vegas, the seventh of
+                    nine children (eight boys and one girl) of Christene M. (née Callister) and Ronald Reynolds, a
+                    lawyer and author.[8] Both
+                    are natives of Nevada, and Reynolds is a 4th generation Nevadan.[9] As a Boy Scout he earned the
+                    rank of Eagle Scout in </p>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mt-5">
+                <h5>Designer at company</h5>
+                <p style="font-size: small;" class="text-secondary">2015 May - 2018 April</p>
+                <p style="font-size: small;" class="text-secondary">Reynolds was born in Las Vegas, the seventh of
+                    nine children (eight boys and one girl) of Christene M. (née Callister) and Ronald Reynolds, a
+                    lawyer and author.[8] Both
+                    are natives of Nevada, and Reynolds is a 4th generation Nevadan.[9] As a Boy Scout he earned the
+                    rank of Eagle Scout in </p>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mt-5">
+                <h5>Designer at company</h5>
+                <p style="font-size: small;" class="text-secondary">2015 May - 2018 April</p>
+                <p style="font-size: small;" class="text-secondary">Reynolds was born in Las Vegas, the seventh of
+                    nine children (eight boys and one girl) of Christene M. (née Callister) and Ronald Reynolds, a
+                    lawyer and author.[8] Both
+                    are natives of Nevada, and Reynolds is a 4th generation Nevadan.[9] As a Boy Scout he earned the
+                    rank of Eagle Scout in </p>
+            </div>
+        </div>
+        <div>
+            <h2 class="fw-bold text-start ps-lg-4 pe-0 me-0 ms-lg-2"><mark class="p-0 rounded-3">Awards</mark> Ive
+                learned.</h2>
+            <div class="row my-5 div-auto">
+                <div class="col-lg-4 col-md-6 col-12 mt-4">
+                    <div class="card py-4 border-1" style="width: 20rem;">
+                        <div class="card-title">
+                            <h5>The best</h5>
+                            <h5>Photographer Award 2014</h5>
+                        </div>
+                        <div class="card-body">
+                            <span class="text-secondary">winner</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mt-4">
+                    <div class="card py-4 border-1" style="width: 20rem;">
+                        <div class="card-title">
+                            <h5>The best</h5>
+                            <h5>Photographer Award 2014</h5>
+                        </div>
+                        <div class="card-body">
+                            <span class="text-secondary">winner</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mt-4">
+                    <div class="card py-4 border-1" style="width: 20rem;">
+                        <div class="card-title">
+                            <h5>The best</h5>
+                            <h5>Photographer Award 2014</h5>
+                        </div>
+                        <div class="card-body">
+                            <span class="text-secondary">winner</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+    </section>
+    <footer class="text-center text-secondary container">
+        <div class="row">
+            <div class="col-md-4 col-sm-12">
+                <a href="#">
+                    <p style="font-size: small;">@2018 portfoillo template by adveits </p>
+                </a>
+            </div>
+            <div class="col-md-8 col-sm-12 text-md-end text-center">
+                <ul class="sub-menu">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Telegram</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="/js/script.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/swiper-element-bundle.min.js"></script>
+</body>
+
+</html>

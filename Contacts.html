@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contacts.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/font/font.css">
+    <style>
+        footer a:hover {
+            color: #000 !important;
+            transition: 0.3s;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body class="container">
+    <header>
+        <section class="container mt-3 px-3">
+            <div class="row">
+                <div class="col-4">
+                    <a class="navbar-brand" href="/index.html"><img src="/img/Capture.JPG" alt=""></a>
+                </div>
+                <div class="col-4 text-center mt-1">
+                    <a data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar2"
+                        aria-controls="offcanvasDarkNavbar" href="#">
+                        <button style="font-size: small;background-color: #fff;"
+                            class="border-0 text-dark button-el fw-bold">Search</button>
+                    </a>
+                    <div class="offcanvas rounded-3 border shadow m-auto w-75 h-50 offcanvas-top"
+                        id="offcanvasDarkNavbar2">
+                        <div class="offcanvas-header">
+                            <div class="col-lg-1 col-sm-2 mx-2 col-2 mt-3">
+                                <a class="navbar-brand" href="/index.html"><img src="/img/logo.JPG" width="100px"
+                                        alt=""></a>
+                            </div>
+                            <div class="rel">
+                                <a class="button-el" type="button" data-bs-dismiss="offcanvas" aria-label="Close">
+                                    <span class="fw-bold" style="font-size: small;">Close</span>
+                                    <span>
+                                        <i class="fa-solid fa-xmark ms-1">
+                                            <svg xmlns="http://www.w3.org/2000/svg" height="16" width="12"
+                                                viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                                                <path
+                                                    d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
+                                            </svg>
+                                        </i>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="offcanvas-body">
+                            <form class="d-flex rel" role="search">
+                                <input style="background-color: #f5f5f5;" class="form-control border-0 pe-5 p-4"
+                                    type="search" placeholder="Type something to search" aria-label="Search">
+                                <i class="fas fa-search fa-search3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16"
+                                        viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                                        <path
+                                            d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6 .1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z" />
+                                    </svg>
+                                </i>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <nav style="--bs-navbar-toggler-focus-width: 0;"
+                        class="navbar navbar-expand-xlg bg-body-light float-end m-0 p-0">
+                        <button class="navbar-toggler outline-none p-1 border-0 button-el" type="button"
+                            data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+                            aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                            <span class="fw-bold" style="font-size: small;">Menu</span>
+                            <i class="fa-solid fa-bars">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="11" width="14"
+                                    viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                                    <path
+                                        d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+                                </svg>
+                            </i>
+                        </button>
+                        <div class="container-fluid">
+                            <div class="offcanvas h-100 offcanvas-top" id="offcanvasDarkNavbar">
+                                <div class="offcanvas-header">
+                                    <div class="col-lg-1 col-sm-2 mx-2 col-2 mt-3 ms-5">
+                                        <a class="navbar-brand" href="/index.html"><img src="/img/logo.JPG"
+                                                width="100px" alt=""></a>
+                                    </div>
+                                    <div class="rel">
+                                        <a class="button-el" type="button" data-bs-dismiss="offcanvas"
+                                            aria-label="Close">
+                                            <span class="fw-bold" style="font-size: small;">Close</span>
+                                            <span>
+                                                <i class="fa-solid fa-xmark ms-1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="12"
+                                                        viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                                                        <path
+                                                            d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
+                                                    </svg>
+                                                </i>
+                                            </span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                                <ul class="navbar-nav  mb-2 mb-lg-0 header-menu1 text-end pe-5 me-5">
+                                    <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" href="/index.html">
+                                            <h1>Home</h1>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/about.html">
+                                            <h1>About</h1>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/works.html">
+                                            <h1>Works</h1>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/Journal.html">
+                                            <h1>Journal</h1>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/Contacts.html">
+                                            <h1 style="color: black;">Contacts</h1>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <section class="mt-5">
+            <div class="col-md-7 col-12 ms-3">
+                <h1 style="font-size: 7rem;" class="fw-bolder">Contacts</h1>
+            </div>
+        </section>
+        <br>
+    </header>
+    <br>
+    <section id="sec-body my-5 ">
+        <section>
+            <div class="row ms-3">
+                <div class="col-lg-4 col-12 mb-5">
+                    <h2 class="rel">Here you <br>can contact me
+                    </h2>
+                    <div class="col-10">
+                        <p>Reynolds was born in Las Vegas, the seventh of
+                            nine children (eight boys
+                            and one girl) of Christene M. (née Callister) and Ronald Reynolds, a lawyer and author.[8]
+                            Both
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-12 mb-5">
+                    <div class="row">
+                        <div class="col-3">
+                            <h5>City</h5>
+                            <p>Colocudo springs</p>
+                        </div>
+                        <div class="col-3">
+                            <h5>State</h5>
+                            <p>Co</p>
+                        </div>
+                        <div class="col-3">
+                            <h5>Statefull</h5>
+                            <p>Coloradu</p>
+                        </div>
+                        <div class="col-3">
+                            <h5>Mobile number</h5>
+                            <p>719-338-4615</p>
+                        </div>
+                        <div class="col-3 mt-5">
+                            <h5>Email</h5>
+                            <p>hello@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="my-5 ms-3">
+            <h2 class="rel mb-5">Fill up a <mark class="p-0 rounded-3">form</mark>
+            </h2>
+            <div class="col-lg-8 col-12">
+                <form action="post">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Name">
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="mb-3">
+                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Email">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"
+                            placeholder="Massage"></textarea>
+                    </div>
+                    <div class="col-auto">
+                        <button type="submit" class="btn btn-dark btn-sm mb-3 py-2 px-4">
+                            <p class="text-light d-inline">Submit</p>
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <br><br>
+        </section>
+
+    </section>
+    <footer class="text-center text-secondary container">
+        <div class="row">
+            <div class="col-md-4 col-sm-12">
+                <a href="#">
+                    <p style="font-size: small;">@2018 portfoillo template by adveits </p>
+                </a>
+            </div>
+            <div class="col-md-8 col-sm-12 text-md-end text-center">
+                <ul class="sub-menu">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Telegram</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="/js/script.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/swiper-element-bundle.min.js"></script>
+</body>
+
+</html>
